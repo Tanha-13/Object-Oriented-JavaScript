@@ -20,4 +20,42 @@
  *  4. data is exposed to whole program
  *  5. operation's priority is higher than data
  *  6. difficult to relate with real world data
+ * 
+ * 
+ * 
+ * ************Object Oriented Programming**************
+ * Object Oriented Programming is all about object. Finding Object, it's properties and methods are the main mechanism of learning object oriented programming.
+ * Class is a template/blueprint to create multiple objects.
+ * 
+ * -----Class Template------------------------------
+ * Public String name
+ * Public String email
+ * Public String password
+ * Public String username
+ * 
+ * // User is a template or Constructor function. we can call User functions as many time as we want. Each time we call User, a new user will be created - new User(data)
+ * 
+ * User createUser(data){}
+ * void login(data){}
+ * void Logout(data){}
+ * void resetPassword(data){}
+ * ------------Creating an object-------------------
+ * User user1 = new User('hello', 'hello@gmail.com', '!12sdf', 'hello12');
+ * 
+ * -------------------------------------------------
+ * Constructor is used to pass data to class template. 
+ * In Java, the name of class and constructor is same.
+ * When we create a class, it will automatically convert into a custom data type.
+ * 
+ */
+
+// What is an Object?
+/**
+ * Whatever you can see near beside you is an object
+ * 1. combination of Noun, Adjective(properties) & Verb(methods)
+ * 2. has some private and public properties and/or has some functions which is called methods
+ * 3. A capsule that can encapsulate data and operations
+ * 4. is a custom data type
+ * 5. an isolated environment for properties and methods
+ * 
  */
