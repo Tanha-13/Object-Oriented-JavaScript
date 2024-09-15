@@ -59,3 +59,17 @@
  * 5. an isolated environment for properties and methods
  * 
  */
+
+
+/**
+ * ********Four Main Pillar of OOP*************
+ *imp: to implement these topics properly, we will need some additional features and techniques too which are language specific and not all language has the same ability to implement object oriented programming properly.
+ Four pillars of OOP:
+ * 1. Abstraction: Abstraction means hiding the implementation details inside and providing just the necessary API. We never know how it is working, we only know what to do.
+ * 
+ * 2. Encapsulation: The definition of encapsulation is 'the action of enclosing something is or as if in a capsule'. Encapsulation means that each object in your code should control its own state. State is the current 'snapshot' of your object.
+ *  
+ * 3. Inheritance: The ability of creating a new class from an existing class. Inheritance is when an object acquires the property of another object. Inheritance allows a class to acquire the properties and behavior of another class.
+ * 
+ * 4. Polymorphism: Polymorphism is derived from 2 greek words: poly and morphs. The word 'poly' means 'many' and 'morphs' means 'forms'. SO polymorphism means 'many forms'.
+ */
