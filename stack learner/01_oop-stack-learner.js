@@ -1,18 +1,7 @@
 // before oop
 /**
- * info: in c programming, using struct
- * String name = "Hello"
- * String email = "hello@gmail.com"
- * String password = "!2sdf@34"
- * String userName = "hello"
  * 
- * Struct user1 = {data}
- * Struct user2 = {data}
- * 
- * login(Struct user1)
- * Login(Struct user2)
- * 
- * info: Disadvantages of procedural programming
+ * topic: Disadvantages of procedural programming
  * Procedural programming is good, but there is some serious issue we face when we create software for real world. Mapping real world objects, data to programming seems really hard when it comes to procedural programming like C. 
  *  1. code is not reusable
  *  2. large code base is hard to manage
@@ -33,19 +22,18 @@
  * Public String password
  * Public String username
  * 
- * // User is a template or Constructor function. we can call User functions as many time as we want. Each time we call User, a new user will be created - new User(data)
  * 
  * User createUser(data){}
  * void login(data){}
  * void Logout(data){}
  * void resetPassword(data){}
+ * 
+ * 
  * ------------Creating an object-------------------
  * User user1 = new User('hello', 'hello@gmail.com', '!12sdf', 'hello12');
+ * User user2 = new User('tanha', 'hello1@gmail.com', '!12sdd', 'hello13');
  * 
  * -------------------------------------------------
- * Constructor is used to pass data to class template. 
- * In Java, the name of class and constructor is same.
- * When we create a class, it will automatically convert into a custom data type.
  * 
  */
 
@@ -58,6 +46,15 @@
  * 4. is a custom data type
  * 5. an isolated environment for properties and methods
  * 
+ */
+
+// topic: Components of a Class
+/**
+ * 1. Constructor
+ * 2. State (Properties/Attributes)
+ * 3. Methods 
+ * 4. Static States
+ * 5. Static Methods
  */
 
 
